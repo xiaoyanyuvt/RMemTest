@@ -25,3 +25,5 @@ It seems the first 200M+ memory increase betwen the first two memory check is du
 8M allocation between the last two memory check is due to the vector allocation.
 
 However, no decrease of memory is observed though the R related method calling (i.e. testRMem())is done.
+
+The test is conducted on Redhat Enterprise Linux server 7.9 with R 4.0.4
